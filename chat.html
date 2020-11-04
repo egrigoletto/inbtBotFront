@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="axios.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Chat Template</title>
+</head>
+<body>
+    <H2>Chat Template</H2>
+    <div class="chat_container">
+      <!-- enviado pelo bot -->
+      <div class="container">
+        <!-- <img src="" style="width: 100%;" alt="avatar_bot"> -->
+        <p>Hi how are you?</p>
+        <span class="time-right">11:00</span>
+      </div>
+      <!-- enviado pelo usuário -->
+      <div class="container darker">
+        <!-- <img src="" style="width: 100%;" alt="avatar_human"> -->
+        <p>I am fine, and you, how it's going?</p>
+        <span class="time-left">11:01</span>
+      </div>
+      <div class="container">
+        <!-- <img src="" style="width: 100%;" alt="avatar_bot"> -->
+        <p>I'm fine.</p>
+        <span class="time-right">11:01</span>
+      </div>
+      <div class="container">
+        <img src="" style="width: 100%;" alt="avatar_bot">
+        <p>Em que posso te ajudar?<p>
+        <span class="time-right">11:01</span>
+      </div>
+      <div class="container darker">
+        <img src="" style="width: 100%;" alt="avatar_human">
+        <p>Nada não</p>
+        <span class="time-left">11:02</span>
+      </div>
+      <div class="container">
+        <img src="" style="width: 100%;" alt="avatar_bot">
+        <p>Ok, se precisar de algo estou por aqui ok 😉 ?<p>
+        <span class="time-right">11:01</span>
+      </div>
+    </div>
+    <div>
+      <input class="message_text" type="text" placeholder="Digite seu texto aqui">
+      <button class="send_button">💬</button>
+      <span class="typing notShow">Bot is Typing...</span>
+    </div>
+</body>
+</html>
